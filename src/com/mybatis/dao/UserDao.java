@@ -2,7 +2,7 @@ package com.mybatis.dao;
 
 import com.mybatis.model.User;
 
-public interface UserMapper {
+public interface UserDao {
     int deleteByPrimaryKey(Integer id);
 
     int insert(User record);

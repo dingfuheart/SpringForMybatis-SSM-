@@ -2,7 +2,7 @@ package com.mybatis.dao;
 
 import com.mybatis.model.Article;
 
-public interface ArticleMapper {
+public interface ArticleDao {
     int deleteByPrimaryKey(Integer aId);
 
     int insert(Article record);
