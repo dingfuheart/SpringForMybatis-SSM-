@@ -12,6 +12,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <meta charset="UTF-8">
 <title>测试</title>
 </head>
-<body>姓名：${user.username}
+<body>
+姓名：${user.username}
+
+<button id="AddUser">新增一个用户</button>
+
+<script src="js/jquery-1.11.0.js"></script>
+<script src="js/login.js" type="text/javascript"></script>
+<script src="js/tip.js"></script>
 </body>
 </html>
